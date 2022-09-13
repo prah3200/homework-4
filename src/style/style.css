@@ -1,0 +1,399 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+}
+
+h1 {
+    margin: 0 0 10px;
+    font-size: 47px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin: 0 0 100px;
+}
+
+h2:before {
+    content:'';
+    background-color: #ECECED;
+    height: 1px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+
+h2:after {
+    content:'';
+    background-color: #ECECED;
+    height: 1px;
+    width: 30px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1F2E;
+    margin: 0 0 5px;
+}
+
+p {
+    margin: 0 0 16px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn {
+    display:inline-block;
+    background-color: #1D1F2E;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 9px 24px 8px;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+}
+
+.btn.btn-white {
+    background-color: #FFF;
+    box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+    color: #1D1F2E;
+    font-weight: 700;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.row.row-sm {
+    margin: 0 -8px;
+}
+
+.col {
+    padding: 0 10px;
+    margin-bottom: 65px;
+    width: 100%;
+}
+
+.col.col-sm {
+    padding: 0 8px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: calc(100%/3);
+}
+
+.header {
+    padding: 28px 0;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    transition: ease-in-out 0.2s;
+}
+
+.nav-link:hover {
+    opacity: 0.7;
+}
+
+.cart-link {
+    display: flex;
+}
+
+.cart-link span {
+    display: block;
+    padding: 0 10px;
+}
+
+.cart-link .cart-count {
+    background-color: #1D1F2E;
+    border-radius: 50%;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 18px;
+    min-width: 20px;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+.hero-section {
+    background-color: #050827;
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    min-height: 530px;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 123px;
+}
+
+.pseudo-title {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.hero-section .text-holder p {
+    margin: 0 0 38px;
+}
+
+.story-section {
+    margin: 0 0 102px;
+    text-align: center;    
+}
+.story-section .container {
+    max-width: 690px;
+}
+
+.story-section h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0 0 16px;
+    text-transform: none;
+}
+
+.story-link {
+    font-size: 15px;
+    line-height: 28px;
+    color: #A25F4B;
+    text-decoration: none;
+    border-bottom:2px solid rgba(162, 95, 75, 0.2);
+    padding-bottom: 2px;
+    transition: color ease-in-out 0.2s;
+}
+
+.story-link:hover {
+    color:rgba(162, 95, 75, 0.2) ;
+}
+
+.coffee-link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    line-height: 32px;
+}
+
+.coffee-link:hover .img-holder {
+    transform: scale(1.05) ;
+}
+
+.coffee-link .img-holder {
+    margin-bottom: 35px;
+    transition: ease-in-out 0.2s;
+}
+
+.coffee-link .text-holder {
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.coffee-link .new-price {
+    color: #A25F4B;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.coffee-link .old-price {
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+}
+
+.img-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.img-col {
+    pad: 0 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.img-col-sm {
+    padding: 0 10px;
+    width: calc(100%-300px);
+}
+
+.img-col-sm .img-holder{
+    margin-bottom: 20px;
+}
+
+.img-col-sm .img-holder:last-child {
+    margin-bottom: 0;
+}
+
+.premium-description {
+    max-width: 413px;
+    padding-left: 60px;
+}
+
+.premium-description .title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;    
+    margin-bottom: 15px;
+    display: block;
+    color: #1D1F2E;
+}
+
+.premium-description .pseudo-title,
+.premium-description .title {
+    color:#1D1F2E; ;
+}
+
+.premium-description .text-holder {
+    margin-bottom: 20px;
+}
+
+.visual-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 340px;
+}
+
+.cofee-article h3 {
+    text-align: left;
+    line-height: 32px;
+}
+
+.cofee-article .img-holder {
+    margin-bottom: 30px;
+}
+
+.date {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+.subscribe {
+    padding:80px 0 85px ;
+    background-color: #1D1F2E;
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe h2 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.subscribe h2:before,
+.subscribe h2:after {
+    background-color: rgba(210, 210, 213, 0.1);
+}
+
+.subscribe .title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.subscribe-form {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 490px;
+}
+
+.subscribe-form .input {
+    border: 1px solid #2F303E;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    padding: 18px;
+    height: 54px;
+    margin-right: 10px;
+    width: calc(100% - 152px);
+    font-family: inherit;
+}
+
+.subscribe-form .btn {
+    padding: 18px 25px;
+    border: none;
+}
