@@ -5,38 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./src/style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style/css/main.css">
+    <script src="./src/style/js/main.js" defer></script>
 </head>
 <body>
-   <header class="header">
+    <header class="header">
         <div class="container">
-            <div class="logo-holder">
-                <a href="#" class="logo-link">
-                    <img src="./src/img/logo.jpg" alt="image description" class="logo">
-                </a>
-            </div>
+          <div class="logo-holder">
+            <a href="#" class="logo-link">
+              <img src="./src/img/logo.jpg" alt="Coffestyle" class="logo" />
+            </a>
+          </div>
+          <div class="nav-holder js-nav-holder">
             <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Our Products</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Styleguide</a></li>
-                </ul>
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Our Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Styleguide</a></li>
+              </ul>
             </nav>
             <a href="#" class="cart-link nav-link">
-                <div class="icon-holder">
-                    <img src="./src/img/cart.jpg" alt="image description">
-                </div>
-                <span>cart</span>
-                <span class="cart-count">0</span>
+              <div class="icon-holder">
+                <img src="./src/img/cart.jpg" alt="cart-icon" />
+              </div>
+              <span>cart</span>
+              <span class="cart-count">0</span>
             </a>
+          </div>
+          <button class="nav-opener js-nav-opener">
+            <span></span>
+          </button>
         </div>
-    </header>
+      </header>
     <main>
         <section class="hero-section" style="background-image: url('/homework-4/src/img/bg1.jpg');">
             <div class="container">
@@ -283,5 +289,57 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+          <div class="footer-row">
+            <div class="footer-col">
+              <div class="logo-holder">
+                <a href="#" class="logo-link">
+                  <img
+                    src="./img/IMAGE.png"
+                    alt="Coffestyle"
+                    class="logo-holder"
+                  />
+                </a>
+                <div class="text-holder">
+                  <p>
+                    Delivering the best coffee life since 1996. From coffee geeks
+                    to the real ones.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-col">
+              <strong class="title">Menu</strong>
+              <ul class="footer-list">
+                <li class="footer-item"><a href="#">Home</a></li>
+                <li class="footer-item"><a href="#">Our Products</a></li>
+                <li class="footer-item"><a href="#">About</a></li>
+                <li class="footer-item"><a href="#">Styleguide</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <strong class="title">Follow Us</strong>
+              <ul class="footer-list">
+                <li class="footer-item"><a href="#">Facebook</a></li>
+                <li class="footer-item"><a href="#">Instagram</a></li>
+                <li class="footer-item"><a href="#">Pinterest</a></li>
+                <li class="footer-item"><a href="#">Twitter</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <strong class="title">Contact Us</strong>
+              <span class="mail-title">We’re Always Happy to Help</span>
+              <a href="mailto:us@coffeestyle.io" class="mail-link"
+                >us@coffeestyle.io</a
+              >
+            </div>
+            <div class="copy-holder">
+              <span>CoffeeStyle Inc. &copy; 1996</span>
+              <span>Powered by <a href="#">Webflow</a> </span>
+            </div>
+          </div>
+        </div>
+      </footer> -->
 </body>
 </html>
